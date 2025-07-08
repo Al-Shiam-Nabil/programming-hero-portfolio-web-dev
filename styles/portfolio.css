@@ -12,28 +12,13 @@ body{
 }
 
 header{
-    background-image: url('images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position:right bottom;
+    background-image:url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat,no-repeat;
+    background-position:top left,right bottom;
     background-color: #FFF8F3;
-    position: relative;
-      max-width: 1400px;
-      margin: 0 auto;
-      padding-left: 20px;
 }
 
-header::before{
-    content: '';
-    background-image:url('images/developer.png');
-    position: absolute;
-    top:10px;
-    bottom: 10px;
-   
-    width:100px;
-    height: 100%;
-    background-repeat: no-repeat;
-   background-size: contain;
-}
+
 
 header nav{
     display:flex;
@@ -121,6 +106,7 @@ gap:10px;
     margin-block: 120px !important;
     padding: 80px 100px;
     background-color: #FFF8F3;
+    border-radius: 5px;
 }
 
 .about{
