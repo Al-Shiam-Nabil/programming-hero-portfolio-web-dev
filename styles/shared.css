@@ -1,0 +1,24 @@
+.light-text-color{
+    color:#474747;
+}
+
+.secondery-color{
+color:#FD6E0A;
+}
+
+.btn{
+    background-color:#FD6E0A;
+    color:white;
+font-weight: bold;
+padding: 12px 20px;
+border-radius: 5px;
+border: none;
+font-size: 16px;
+cursor: pointer;
+}
+
+.content-width{
+    max-width: 1000px;
+    margin: 0 auto;
+    /* border:1px solid; */
+}

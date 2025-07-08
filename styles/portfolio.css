@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+      font-family: "Open Sans", sans-serif;
+    
+}
+
+header{
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-color: #FFF8F3;
+    position: relative;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding-left: 20px;
+}
+
+header::before{
+    content: '';
+    background-image:url('/images/developer.png');
+    position: absolute;
+    top:10px;
+    bottom: 10px;
+   
+    width:100px;
+    height: 100%;
+    background-repeat: no-repeat;
+   background-size: contain;
+}
+
+header nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 15px;
+}
+
+header nav h3{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.banner-container{
+   padding-top: 40px;
+    display: flex;
+    gap:30px;
+    justify-content: space-between;
+  align-items: center;
+}
+
+.banner-left{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+gap:10px;
+}
+
+.banner-left .banner-grettings{
+    font-size: 30px;
+
+}
+
+.banner-left .banner-name{
+    font-size: 40px;
+    
+}
+
+.banner-left .banner-paragraph{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.banner-btn-container{
+    display: flex;
+    gap:15px;
+    flex-wrap: wrap;
+}
+
+.banner-btn-container .contact-btn{
+    background-color: transparent ;
+    border:1px solid #FD6E0A;
+    color:#FD6E0A;
+}
+
+.banner-container .banner-right{
+    width:550px;
+    height: 550px;
+      object-fit: contain;
+}
+
+.banner-right img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.about-container{
+    margin-block: 120px !important;
+    padding: 80px 100px;
+    background-color: #FFF8F3;
+}
+
+.about{
+    border: 1px solid rgb(85, 83, 83);
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.about h3{
+    font-size: 25px;
+}
+
+.about-details{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data{
+    font-weight: bold;
+
+}
+
+.what-i-do-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+}
+
+.what-i-do-container h3{
+font-size: 25px;
+}
+
+.what-i-do-container p{
+    max-width: 750px;
+}
+
+.skill-container{
+    display: flex;
+    gap:20px;
+    justify-content: flex-start;
+   margin-block: 20px;
+}
+
+.skill{
+    padding: 20px;
+    text-align: left;
+    width:210px;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px 2px rgba(0,0,0, .2);
+}
+
+.skill-container h3{
+    font-size: 18px;
+    margin-block: 10px;
+}
+
+.skill-container p{
+    font-size: 15px;
+    color:#474747;
+margin-block: 10px;
+}
+
+.skill img{
+    width:40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.summary{
+    display: flex;
+    gap:30px;
+}
+
+
+
