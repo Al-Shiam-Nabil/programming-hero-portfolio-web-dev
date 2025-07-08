@@ -90,6 +90,18 @@ gap:10px;
     color:#FD6E0A;
 }
 
+.banner-btn-container i{
+  
+    font-size: 14px;
+}
+
+ .btn-span{
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+      margin-right: 5px;
+}
+
 .banner-container .banner-right{
     width:550px;
     height: 550px;
@@ -186,7 +198,110 @@ margin-block: 10px;
 
 .summary{
     display: flex;
-    gap:30px;
+    gap:40px;
+}
+
+.summary-container{
+    margin-block: 100px !important;
+  
+}
+
+.summary-container h3{
+   font-size: 25px;
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+.summary h3{
+    font-size: 20px;
+margin-block: 20px;
+text-align: left;
+}
+
+.summary .details{
+    color:#757575;
+    font-size: 15px;
+    margin-block: 10px;
+}
+
+.summary .institute{
+    color:#474747;
+}
+
+.summary h4{
+    font-size: 18px;
+    margin-block: 3px;
+}
+
+hr{
+  border:1px solid rgb(197, 196, 196);
+margin-block: 20px;
+}
+
+.summary-container button{
+    border:1px solid red;
+    margin:  50px auto;
+    display: block;
+}
+
+footer{
+    background-color: #FFF8F3;
+    padding-block: 100px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap:200px;
+
+}
+
+.footer-container h3{
+    font-size: 25px;
+}
+
+.left-footer{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.left-footer p{
+    color:#757575;
+    font-size: 15px;
+}
+
+.right-footer{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.right-footer form input{
+
+    width:350px;
+    height:40px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+margin-block: 7px;
+padding-inline: 15px;
+}
+
+.right-footer textarea{
+    width:350px;
+    resize: none;
+    background-color: #fff;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+    margin-block: 7px;
+    padding: 15px;
+}
+
+.right-footer button{
+    display: block;
 }
 
 
