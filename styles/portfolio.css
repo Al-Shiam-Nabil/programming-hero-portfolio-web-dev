@@ -8,6 +8,8 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  max-width: 1414px;
+  margin: 0 auto;
 }
 
 header {
