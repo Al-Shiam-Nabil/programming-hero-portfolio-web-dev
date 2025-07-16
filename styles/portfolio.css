@@ -115,6 +115,8 @@ gap:10px;
 
 }
 
+/*about start*/
+
 .about-container{
     margin-block: 120px !important;
     padding: 80px 100px;
@@ -147,6 +149,36 @@ gap:10px;
 
 }
 
+@media screen and (max-width:576px){
+
+    .about-container{
+        padding: 50px 20px;
+    }
+
+ .about-details{
+    flex-direction: column;
+ }
+}
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .about-container{
+      padding: 50px 40px;
+    }
+
+    .about-details{
+        flex-wrap: wrap;
+    }
+
+    .about-me{
+        width:40%;
+    }
+}
+
+
+/*about end*/
+
+/*what i do*/
+
 .what-i-do-container{
     display: flex;
     justify-content: center;
@@ -155,6 +187,7 @@ gap:10px;
     flex-wrap: wrap;
     text-align: center;
     gap: 20px;
+    padding-inline: 40px;
 }
 
 .what-i-do-container h3{
@@ -197,14 +230,41 @@ margin-block: 10px;
     object-fit: contain;
 }
 
-.summary{
-    display: flex;
-    gap:40px;
+
+
+
+@media screen and (max-width:576px){
+    .what-i-do-container{
+        padding-inline: 20px;
+    }
+
+    .skill-container{
+        flex-direction: column;
+    }
+
+    .skill{
+        width:100%;
+    }
 }
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .skill-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skill{
+        width:40%;
+    }
+}
+
+/*what i do end*/
+
+/*summary */
 
 .summary-container{
     margin-block: 100px !important;
-  
+  padding-inline: 40px;
 }
 
 .summary-container h3{
@@ -217,6 +277,11 @@ margin-block: 10px;
     font-size: 20px;
 margin-block: 20px;
 text-align: left;
+}
+
+.summary{
+    display: flex;
+    gap:40px;
 }
 
 .summary .details{
@@ -244,9 +309,29 @@ margin-block: 20px;
     display: block;
 }
 
+@media screen and (max-width:576px){
+    .summary-container{
+        padding-inline: 20px;
+    }
+    .summary{
+    flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px){
+   
+    .summary{
+    flex-direction: column;
+    }
+}
+
+/*summary end*/
+
+/*footer*/
 footer{
     background-color: #FFF8F3;
     padding-block: 100px;
+    padding-inline: 40px;
 }
 
 .footer-container{
@@ -302,6 +387,45 @@ padding-inline: 15px;
 
 .right-footer button{
     display: block;
+}
+
+@media screen and (max-width:576px){
+    footer{
+        padding-inline: 20px;
+    }
+    .footer-container{
+        flex-direction: column;
+        gap:40px;
+    }
+
+   .right-footer form input{
+        width:100%;
+    }
+
+    .right-footer textarea{
+        width:100%;
+    }
+
+    .right-footer button{
+        margin:  auto;
+    }
+}
+
+@media screen and (max-width:768px){
+    .footer-container{
+        flex-direction: column;
+        gap:40px;
+    }
+
+    .right-footer button{
+        margin-top: 10px;
+    }
+}
+
+/*footer end*/
+
+.hide{
+    display: none;
 }
 
 
