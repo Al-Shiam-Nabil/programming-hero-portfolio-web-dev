@@ -172,6 +172,11 @@ header nav ul li a {
     display: inline-block;
     margin-top: 15px;
   }
+
+  .banner-left {
+  justify-content: center;
+  align-items: center;
+}
 }
 
 /*banner end*/
